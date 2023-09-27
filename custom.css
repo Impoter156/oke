@@ -1,0 +1,72 @@
+/* reset margin, padiding */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: unset;
+}
+body .red {
+  border: 1px solid red;
+}
+body .green {
+  border: 1px solid green;
+}
+body .banner {
+  background: url(./banner.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+body .banner .menu {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+  color: black;
+}
+body .banner .menu .about, body .banner .menu .sign_in {
+  text-decoration: none black;
+  display: inline-block;
+  margin-top: 21px;
+  padding: 7px 15px;
+}
+body .banner .menu .sign_in {
+  margin-right: 150px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+body .banner .menu a {
+  color: black;
+}
+body .banner .logo {
+  background: url("./hapoERP.png") center no-repeat;
+  height: 250px;
+  width: 100%;
+}
+body .banner .content_center {
+  height: 100px;
+  text-align: center;
+}
+body .banner .content_center .better, body .banner .content_center .faster, body .banner .content_center .together {
+  display: inline-block;
+  width: 33%;
+  margin-top: 10px;
+}
+body .banner .content_center span {
+  display: block;
+  font-size: 20px;
+}
+body .banner .content_center img {
+  height: 50px;
+  width: 50px;
+}
+body .banner .text, body .banner .button {
+  margin-top: 20px;
+  text-align: center;
+}
+body .banner .text button, body .banner .button button {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: 2px solid green;
+  border-radius: 30px;
+}
